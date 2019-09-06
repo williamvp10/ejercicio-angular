@@ -1,0 +1,11 @@
+<h1>Peliculas </h1>
+<table style="width:100%" *ngFor="let peli of peliculas2">
+  <tr>
+    <td><br><br><img src="{{ peli.url }}" width="150" height="200"></td>
+    <td> <table style="width:100%"> 
+      <tr><h1>{{peli.nombre}}</h1></tr>
+       <tr>{{peli.descripcion}}</tr>
+      </table></td>
+  </tr>
+  
+</table>
